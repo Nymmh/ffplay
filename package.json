@@ -1,0 +1,22 @@
+{
+  "name": "ffplay",
+  "version": "1.0.0",
+  "description": "Easily play audio with ffplay",
+  "main": "src/ffplay.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nymmh/ffplay.git"
+  },
+  "author": "Nymh",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/Nymmh/ffplay/issues"
+  },
+  "homepage": "https://github.com/Nymmh/ffplay#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.4"
+  }
+}
