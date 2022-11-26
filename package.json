@@ -1,6 +1,6 @@
 {
-  "name": "ffplay",
-  "version": "1.0.0",
+  "name": "@nymh/ffplay",
+  "version": "0.1.6",
   "description": "Easily play audio with ffplay",
   "main": "src/ffplay.ts",
   "scripts": {
