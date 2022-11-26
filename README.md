@@ -4,6 +4,10 @@ Easily play audio files with ffplay and promises.
 
 [FFMPEG](https://ffmpeg.org/) is required for this package to work.
 
+## Install
+
+`npm install @nymh/ffplay`
+
 ## Usage
 
     // Play audio
