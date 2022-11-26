@@ -11,7 +11,7 @@ Easily play audio files with ffplay and promises.
 ## Usage
 
     // Play audio
-    import { playAudio } from  "./playAudio";
+    import { playAudio } from  "@nymh/ffplay";
 
     playAudio(./myAudio.mp3);
 
@@ -19,7 +19,7 @@ Easily play audio files with ffplay and promises.
     await playAudio(./myAudio.mp3);
 
     // Kill audio
-    import { killAudio } from  "./playAudio";
+    import { killAudio } from  "@nymh/ffplay";
 
     killAudio();
 

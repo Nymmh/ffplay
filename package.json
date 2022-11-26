@@ -1,8 +1,8 @@
 {
   "name": "@nymh/ffplay",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Easily play audio with ffplay",
-  "main": "src/ffplay.ts",
+  "main": "dist/ffplay.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
