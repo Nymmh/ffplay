@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "experimentalDecorators": true,
+      "target": "esnext",
+      "module": "esnext",
+      "strict": false,
+      "outDir": "dist",
+      "watch": false,
+      "lib": ["es2020"],
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+    },
+    "include": [
+      "*.ts",
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+  }
+  
