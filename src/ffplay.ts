@@ -1,15 +1,15 @@
-import { spawn } from "child_process";
+import child from "child_process";
 
 let running = false;
-let runner;
-let runners = [];
+let runner: child.ChildProcess;
+let runners: child.ChildProcess[] = [];
 
 function playAudio(file: string, multiRun: boolean = true) {
   return new Promise((resolve) => {
     try {
       if (running && !multiRun) return;
 
-      runner = spawn("ffplay", [file, "-nodisp", "-autoexit"], {
+      runner = child.spawn("ffplay", [file, "-nodisp", "-autoexit"], {
         stdio: "ignore",
       });
 
