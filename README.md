@@ -2,6 +2,8 @@
 
 Easily play audio files with ffplay and promises.
 
+[FFMPEG](https://ffmpeg.org/) is required for this package to work.
+
 ## Usage
 
     // Play audio
